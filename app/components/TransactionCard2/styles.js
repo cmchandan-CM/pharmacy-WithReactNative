@@ -1,0 +1,78 @@
+import {StyleSheet} from 'react-native';
+
+export default StyleSheet.create({
+  contain: {},
+  nameContent: {
+    alignItems: 'flex-start',
+    borderBottomWidth: 1,
+    paddingHorizontal: 10,
+    paddingVertical: 8,
+    borderTopRightRadius: 8,
+    borderTopLeftRadius: 8,
+  },
+  validContent: {
+    flexDirection: 'row',
+    paddingHorizontal: 12,
+    paddingVertical: 7,
+    justifyContent: 'space-between',
+    borderBottomRightRadius: 8,
+    borderBottomLeftRadius: 8,
+  },
+  mainContent: {
+    borderWidth: 1,
+    borderRadius: 2,
+    borderColor: '#ddd',
+    borderBottomWidth: 0,
+    shadowColor: '#000',
+    shadowOffset: {width: 0, height: 2},
+    shadowOpacity: 0.8,
+    shadowRadius: 2,
+    elevation: 2,
+    paddingHorizontal: 10,
+    paddingVertical: 5,
+    flexDirection: 'row',
+    borderRadius: 4,
+  },
+  cardImg: {height: 80, width: 80, borderRadius: 4},
+  rightContent: {
+    paddingLeft: 10,
+    flexDirection: 'row',
+    // backgroundColor: 'red',
+    flex: 10,
+  },
+  contentBar: {flex: 5},
+  boxContain: {
+    flexDirection: 'row',
+    // justifyContent: 'center',
+    alignItems: 'center',
+  },
+  boxQuantity: {},
+  btnContain: {
+    flex: 2,
+    paddingVertical: 0,
+    // backgroundColor: 'red',
+    justifyContent: 'flex-end',
+    alignItems: 'flex-end',
+  },
+  plusBtnTouch: {
+    marginBottom: 10,
+    borderRadius: 4,
+    width: 45,
+  },
+  plusBtnContain: {
+    justifyContent: 'center',
+    alignItems: 'center',
+    height: 35,
+    // width: 30,
+  },
+  minusBtnTouch: {
+    width: 45,
+    borderRadius: 4,
+  },
+  minusBtnContain: {
+    justifyContent: 'center',
+    alignItems: 'center',
+    height: 35,
+  },
+  imgContain: {flex: 4},
+});

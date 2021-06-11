@@ -1,0 +1,50 @@
+import {StyleSheet} from 'react-native';
+
+export default StyleSheet.create({
+  contain: {
+    shadowColor: '#000',
+    shadowOffset: {width: 0, height: 2},
+    shadowOpacity: 0.8,
+    shadowRadius: 2,
+    elevation: 5,
+    borderTopLeftRadius: 8,
+    borderTopRightRadius: 8,
+  },
+  nameContent: {
+    alignItems: 'flex-start',
+    paddingHorizontal: 5,
+    paddingVertical: 8,
+    borderTopRightRadius: 8,
+    borderTopLeftRadius: 8,
+  },
+  validContent: {
+    flexDirection: 'row',
+    paddingHorizontal: 12,
+    paddingVertical: 7,
+    justifyContent: 'space-between',
+    borderBottomRightRadius: 8,
+    borderBottomLeftRadius: 8,
+  },
+  mainContent: {
+    // borderWidth: 1,
+    height: 70,
+    paddingHorizontal: 5,
+    paddingVertical: 8,
+    flexDirection: 'row',
+  },
+  leftContent: {flex: 1, alignItems: 'flex-start'},
+  timeText: {color: 'black'},
+  dateText: {color: 'black'},
+  rightContent: {flex: 1, alignItems: 'flex-end'},
+  ViewBtn: {
+    height: 28,
+    paddingHorizontal: 7,
+    borderRadius: 4,
+    shadowColor: '#000',
+    shadowOffset: {width: 0, height: 2},
+    shadowOpacity: 0.8,
+    shadowRadius: 2,
+    elevation: 2,
+  },
+  btnText: {fontSize: 13},
+});
